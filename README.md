@@ -1,13 +1,22 @@
-# bythebrick (DL: 29/04/2022 - 23:00 BST)
+(DL: 29/04/2022 - 23:00 BST)
+# By The Brick
 
-Little to no commenting
+Welcome to the repository for By The Brick, the most reliable and efficient 3rd party trader of individual and sets of LEGO® bricks. Our platform is tailored for bulk buyers who appreciate simplicity and efficiency over flashy UI elements.
 
-Using a database eventually for security
+## Overview
 
-Would of set up a database for the future due to the increase in the amount of data
+By The Brick is designed with a clear and intuitive UI that shows only what is needed, without any excess. Our aim is to cater to customers who would likely be purchasing in bulk and prefer a straightforward shopping experience.
 
-I planned to have features such as deal of the week, goofy mode and a feature on suprise button that would give the user a discount code they could only use for 10:00 mins, a timer would appear and every click they make a small explosion animation and sound would play. I intended to allow an admin, using Oauth authentication, to add and edit bricks and sets currently displayed for sale. There is an attempt at creating the functionality to change orders and mark them as dispatched. However as the deadline closed it become dangerous to create new functionality. It doesn't help that my index.js is not as modulerised as it could potentially be, it is very difficult to look through the code to find what I need to find, espcially in a rush!
+## Features
 
-I set out to have a clear and intutive UI which i think I have acheieved, the page shows all you need to see without any excess, I wanted it to look as simple as possible, this is due to the fact people buying from this store would most likely be buying in bulk and would despise advertising and quirky fashionable UI features as seen in high end stores.
+- **Deal of the Week:** A special feature that offers a new deal every week.
+- **Goofy Mode:** An entertaining feature that, when activated, creates a small explosion animation and sound with each click.
+- **Surprise Discount:** An innovative surprise button that gives users a discount code valid for 10 minutes, complete with a countdown timer.
+- **Admin Panel:** Planned OAuth authentication for admin users to add and edit brick and set listings.
+- **Order Management:** Attempted functionality to change orders and mark them as dispatched.
 
-filters were also not implemented and i fully intended to.
+## Future Considerations
+
+- **Database Integration:** For enhanced security and to manage the increasing data volume.
+- **Modularized Code:** Refactoring `index.js` for better modularity and readability.
+- **Filters:** Implementation of filtering options to sort through the selection of products.
